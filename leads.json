@@ -1,0 +1,2622 @@
+{
+  "list": {
+    "title": "Huseyin's test list: 20 law firms",
+    "date": "November 10, 2026",
+    "data_cost_usd": 7.94,
+    "made": "2026-11-10T06:14:02Z"
+  },
+  "stores": [
+    {
+      "name": "Todd Leonard Law Firm",
+      "site": "lawleonard.com",
+      "url": "https://lawleonard.com",
+      "category": "Personal injury",
+      "segment": "S1 Google and Meta",
+      "write_to": {
+        "name": "Todd Leonard",
+        "title": "Founding Partner"
+      },
+      "ads": {
+        "google_30_days": 38,
+        "meta_live": 1,
+        "seen": "Google 38 in 30 days · Meta 1 live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "double_ads_tag",
+          "module": "tracking",
+          "angle": "Tag loads twice",
+          "parts": [
+            [
+              "Your Google Ads tag loads ",
+              false
+            ],
+            [
+              "twice",
+              true
+            ],
+            [
+              " on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+              false
+            ]
+          ],
+          "line": "Your Google Ads tag loads twice on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+          "subject": "your Google Ads tag loads twice",
+          "level": "Seen",
+          "source": "The same tag loads twice on your pages: AW-854136811 (in the page code and in Tag Manager). Google Ads may count each lead twice.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://www.lawleonard.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://www.lawleonard.com/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Car Accidents page takes ",
+              false
+            ],
+            [
+              "9.7 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Car Accidents page takes 9.7 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "9.7 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Car Accidents) takes 9.7 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.lawleonard.com%2Fcar-accidents%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "Only ",
+              false
+            ],
+            [
+              "20%",
+              true
+            ],
+            [
+              " of your newest 50 Google reviews have an answer from you.",
+              false
+            ]
+          ],
+          "line": "Only 20% of your newest 50 Google reviews have an answer from you.",
+          "subject": "only 20% of your reviews answered",
+          "level": "Seen",
+          "source": "You reply to 20% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=7141568161179960638"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "double_ads_tag",
+          "module": "tracking",
+          "angle": "Tag loads twice",
+          "parts": [
+            [
+              "Your Google Ads tag loads ",
+              false
+            ],
+            [
+              "twice",
+              true
+            ],
+            [
+              " on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+              false
+            ]
+          ],
+          "line": "Your Google Ads tag loads twice on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+          "subject": "your Google Ads tag loads twice",
+          "level": "Seen",
+          "source": "The same tag loads twice on your pages: AW-854136811 (in the page code and in Tag Manager). Google Ads may count each lead twice.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://www.lawleonard.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://www.lawleonard.com/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Car Accidents page takes ",
+              false
+            ],
+            [
+              "9.7 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Car Accidents page takes 9.7 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "9.7 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Car Accidents) takes 9.7 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.lawleonard.com%2Fcar-accidents%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "Only ",
+              false
+            ],
+            [
+              "20%",
+              true
+            ],
+            [
+              " of your newest 50 Google reviews have an answer from you.",
+              false
+            ]
+          ],
+          "line": "Only 20% of your newest 50 Google reviews have an answer from you.",
+          "subject": "only 20% of your reviews answered",
+          "level": "Seen",
+          "source": "You reply to 20% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=7141568161179960638"
+            }
+          ]
+        }
+      ],
+      "report": "r/lawleonard.com/"
+    },
+    {
+      "name": "Michael Day Law Firm",
+      "site": "mmdattorney.com",
+      "url": "https://mmdattorney.com",
+      "category": "Personal injury",
+      "segment": "S1 Google and Meta",
+      "write_to": {
+        "name": "Michael Day",
+        "title": "Managing Partner"
+      },
+      "ads": {
+        "google_30_days": 24,
+        "meta_live": 18,
+        "seen": "Google 24 in 30 days · Meta 18 live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "no_conversion_tag",
+          "module": "tracking",
+          "angle": "No conversion tag found",
+          "parts": [
+            [
+              "You're paying for Google Ads, but we can't find ",
+              false
+            ],
+            [
+              "a Google Ads conversion tag",
+              true
+            ],
+            [
+              " on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+              false
+            ]
+          ],
+          "line": "You're paying for Google Ads, but we can't find a Google Ads conversion tag on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+          "subject": "we can't find your Google Ads conversion tag",
+          "level": "Seen",
+          "source": "You pay for Google Ads, but we cannot find a Google Ads conversion tag on your site. Without one, Google bids without knowing which clicks became leads.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://mmdattorney.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://mmdattorney.com/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "no_meta_pixel",
+          "module": "tracking",
+          "angle": "No Meta Pixel found",
+          "parts": [
+            [
+              "You run ",
+              false
+            ],
+            [
+              "18 ads",
+              true
+            ],
+            [
+              " on Facebook and Instagram, but we can't find a Meta Pixel on your site. Without one, Meta can't see a single lead from them.",
+              false
+            ]
+          ],
+          "line": "You run 18 ads on Facebook and Instagram, but we can't find a Meta Pixel on your site. Without one, Meta can't see a single lead from them.",
+          "subject": "we can't find your Meta Pixel",
+          "level": "Seen",
+          "source": "You run 18 ads on Facebook and Instagram, but we cannot find a Meta Pixel on your site. Without one, Meta cannot see who becomes a lead, so it cannot find more people like them. | Meta's ad library shows 18 live ad(s) of yours.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://mmdattorney.com/"
+            },
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=217332028828330"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "no_conversion_tag",
+          "module": "tracking",
+          "angle": "No conversion tag found",
+          "parts": [
+            [
+              "You're paying for Google Ads, but we can't find ",
+              false
+            ],
+            [
+              "a Google Ads conversion tag",
+              true
+            ],
+            [
+              " on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+              false
+            ]
+          ],
+          "line": "You're paying for Google Ads, but we can't find a Google Ads conversion tag on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+          "subject": "we can't find your Google Ads conversion tag",
+          "level": "Seen",
+          "source": "You pay for Google Ads, but we cannot find a Google Ads conversion tag on your site. Without one, Google bids without knowing which clicks became leads.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://mmdattorney.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://mmdattorney.com/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "no_meta_pixel",
+          "module": "tracking",
+          "angle": "No Meta Pixel found",
+          "parts": [
+            [
+              "You run ",
+              false
+            ],
+            [
+              "18 ads",
+              true
+            ],
+            [
+              " on Facebook and Instagram, but we can't find a Meta Pixel on your site. Without one, Meta can't see a single lead from them.",
+              false
+            ]
+          ],
+          "line": "You run 18 ads on Facebook and Instagram, but we can't find a Meta Pixel on your site. Without one, Meta can't see a single lead from them.",
+          "subject": "we can't find your Meta Pixel",
+          "level": "Seen",
+          "source": "You run 18 ads on Facebook and Instagram, but we cannot find a Meta Pixel on your site. Without one, Meta cannot see who becomes a lead, so it cannot find more people like them. | Meta's ad library shows 18 live ad(s) of yours.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://mmdattorney.com/"
+            },
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=217332028828330"
+            }
+          ]
+        }
+      ],
+      "report": "r/mmdattorney.com/"
+    },
+    {
+      "name": "Law Offices of Bryan Musgrave",
+      "site": "bryanmusgrave.com",
+      "url": "https://bryanmusgrave.com",
+      "category": "Personal injury",
+      "segment": "S1 Google and Meta",
+      "write_to": {
+        "name": "Bryan Musgrave",
+        "title": "Attorney"
+      },
+      "ads": {
+        "google_30_days": 14,
+        "meta_live": 4,
+        "seen": "Google 14 in 30 days · Meta 4 live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "17.1 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 17.1 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "17.1 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 17.1 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.bryanmusgrave.com%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "17.1 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 17.1 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "17.1 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 17.1 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.bryanmusgrave.com%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "report": "r/bryanmusgrave.com/"
+    },
+    {
+      "name": "James Roberts & Associates",
+      "site": "webuildyourtrust.com",
+      "url": "https://webuildyourtrust.com",
+      "category": "Estate planning",
+      "segment": "S1 Google and Meta",
+      "write_to": {
+        "name": "James Roberts",
+        "title": "Founding Attorney"
+      },
+      "ads": {
+        "google_30_days": 1,
+        "meta_live": 2,
+        "seen": "Google 1 in 30 days · Meta 2 live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "open_angle",
+          "module": "competitor-ads",
+          "angle": "An angle nobody uses",
+          "parts": [
+            [
+              "We read ",
+              false
+            ],
+            [
+              "24 live ads",
+              true
+            ],
+            [
+              " from Wealth Enhancement and Mantle. Not one shows a customer review or a star rating. We also read your 3 ads, and none does either.",
+              false
+            ]
+          ],
+          "line": "We read 24 live ads from Wealth Enhancement and Mantle. Not one shows a customer review or a star rating. We also read your 3 ads, and none does either.",
+          "subject": "24 competitor ads, no reviews",
+          "level": "Seen",
+          "source": "None of the 24 competitor ads we read (Wealth Enhancement; Mantle) uses reviews, and none of the 3 of your ads we read does. Jev was sure of each answer.",
+          "proof": [
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=167749633239218"
+            },
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=getmantle.ai&preset-date=Last+30+days"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "open_angle",
+          "module": "competitor-ads",
+          "angle": "An angle nobody uses",
+          "parts": [
+            [
+              "We read ",
+              false
+            ],
+            [
+              "24 live ads",
+              true
+            ],
+            [
+              " from Wealth Enhancement and Mantle. Not one shows a customer review or a star rating. We also read your 3 ads, and none does either.",
+              false
+            ]
+          ],
+          "line": "We read 24 live ads from Wealth Enhancement and Mantle. Not one shows a customer review or a star rating. We also read your 3 ads, and none does either.",
+          "subject": "24 competitor ads, no reviews",
+          "level": "Seen",
+          "source": "None of the 24 competitor ads we read (Wealth Enhancement; Mantle) uses reviews, and none of the 3 of your ads we read does. Jev was sure of each answer.",
+          "proof": [
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=167749633239218"
+            },
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=getmantle.ai&preset-date=Last+30+days"
+            }
+          ]
+        }
+      ],
+      "report": "r/webuildyourtrust.com/"
+    },
+    {
+      "name": "Christina Sherman Law",
+      "site": "shermanlegalsolutions.com",
+      "url": "https://shermanlegalsolutions.com",
+      "category": "Family (adoption)",
+      "segment": "S1 Google and Meta",
+      "write_to": {
+        "name": "Christina Sherman",
+        "title": "Founding Attorney"
+      },
+      "ads": {
+        "google_30_days": 1,
+        "meta_live": 1,
+        "seen": "Google 1 in 30 days · Meta 1 live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [],
+      "problems": [],
+      "report": "r/shermanlegalsolutions.com/"
+    },
+    {
+      "name": "Law Office of Olena Manilich",
+      "site": "manilichlaw.com",
+      "url": "https://manilichlaw.com",
+      "category": "Immigration",
+      "segment": "S1 Google and Meta",
+      "write_to": {
+        "name": "Olena Manilich",
+        "title": "Attorney"
+      },
+      "ads": {
+        "google_30_days": 1,
+        "meta_live": 9,
+        "seen": "Google 1 in 30 days · Meta 9 live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [],
+      "problems": [],
+      "report": "r/manilichlaw.com/"
+    },
+    {
+      "name": "Coby Wooten Law",
+      "site": "cobywootenlaw.com",
+      "url": "https://cobywootenlaw.com",
+      "category": "Personal injury",
+      "segment": "S2 Google only",
+      "write_to": {
+        "name": "Coby Wooten",
+        "title": "Founder"
+      },
+      "ads": {
+        "google_30_days": 8,
+        "meta_live": 0,
+        "seen": "Google 8 in 30 days · Meta none live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "open_angle",
+          "module": "competitor-ads",
+          "angle": "An angle nobody uses",
+          "parts": [
+            [
+              "We read ",
+              false
+            ],
+            [
+              "40 live ads",
+              true
+            ],
+            [
+              " from De la Garza Law Firm, Angel Reyes & Associates and Arnold & Itkin LLP. Not one gives a reason to act now. We also read 5 of your ads, and none does either.",
+              false
+            ]
+          ],
+          "line": "We read 40 live ads from De la Garza Law Firm, Angel Reyes & Associates and Arnold & Itkin LLP. Not one gives a reason to act now. We also read 5 of your ads, and none does either.",
+          "subject": "40 competitor ads, no urgency",
+          "level": "Seen",
+          "source": "None of the 40 competitor ads we read (De la Garza Law Firm; Angel Reyes & Associates; Arnold & Itkin LLP) uses urgency, and none of the 5 of your ads we read does. Jev was sure of each answer.",
+          "proof": [
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=delagarzafirm.com&preset-date=Last+30+days"
+            },
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=117799931700534"
+            }
+          ]
+        },
+        {
+          "kind": "no_meta_ads",
+          "module": "advertisers",
+          "angle": "Not on Instagram",
+          "parts": [
+            [
+              "Google's ad library shows ",
+              false
+            ],
+            [
+              "8 of your ads",
+              true
+            ],
+            [
+              " in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
+              false
+            ]
+          ],
+          "line": "Google's ad library shows 8 of your ads in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
+          "subject": "no ads on Instagram",
+          "level": "Seen",
+          "source": "We cannot find a live ad of yours in Meta's ad library (searched \"https://www.facebook.com/cobywooten/\"). | Google's ad library shows 8 of your ads in the past 30 days, the newest last shown Nov 9, 2026.",
+          "proof": [
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=320449907995311"
+            },
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=cobywootenlaw.com&preset-date=Last+30+days"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "Only ",
+              false
+            ],
+            [
+              "8%",
+              true
+            ],
+            [
+              " of your newest 50 Google reviews have an answer from you.",
+              false
+            ]
+          ],
+          "line": "Only 8% of your newest 50 Google reviews have an answer from you.",
+          "subject": "only 8% of your reviews answered",
+          "level": "Seen",
+          "source": "You reply to 8% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=11470613196839595013"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "open_angle",
+          "module": "competitor-ads",
+          "angle": "An angle nobody uses",
+          "parts": [
+            [
+              "We read ",
+              false
+            ],
+            [
+              "40 live ads",
+              true
+            ],
+            [
+              " from De la Garza Law Firm, Angel Reyes & Associates and Arnold & Itkin LLP. Not one gives a reason to act now. We also read 5 of your ads, and none does either.",
+              false
+            ]
+          ],
+          "line": "We read 40 live ads from De la Garza Law Firm, Angel Reyes & Associates and Arnold & Itkin LLP. Not one gives a reason to act now. We also read 5 of your ads, and none does either.",
+          "subject": "40 competitor ads, no urgency",
+          "level": "Seen",
+          "source": "None of the 40 competitor ads we read (De la Garza Law Firm; Angel Reyes & Associates; Arnold & Itkin LLP) uses urgency, and none of the 5 of your ads we read does. Jev was sure of each answer.",
+          "proof": [
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=delagarzafirm.com&preset-date=Last+30+days"
+            },
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=117799931700534"
+            }
+          ]
+        },
+        {
+          "kind": "no_meta_ads",
+          "module": "advertisers",
+          "angle": "Not on Instagram",
+          "parts": [
+            [
+              "Google's ad library shows ",
+              false
+            ],
+            [
+              "8 of your ads",
+              true
+            ],
+            [
+              " in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
+              false
+            ]
+          ],
+          "line": "Google's ad library shows 8 of your ads in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
+          "subject": "no ads on Instagram",
+          "level": "Seen",
+          "source": "We cannot find a live ad of yours in Meta's ad library (searched \"https://www.facebook.com/cobywooten/\"). | Google's ad library shows 8 of your ads in the past 30 days, the newest last shown Nov 9, 2026.",
+          "proof": [
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=320449907995311"
+            },
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=cobywootenlaw.com&preset-date=Last+30+days"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "Only ",
+              false
+            ],
+            [
+              "8%",
+              true
+            ],
+            [
+              " of your newest 50 Google reviews have an answer from you.",
+              false
+            ]
+          ],
+          "line": "Only 8% of your newest 50 Google reviews have an answer from you.",
+          "subject": "only 8% of your reviews answered",
+          "level": "Seen",
+          "source": "You reply to 8% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=11470613196839595013"
+            }
+          ]
+        }
+      ],
+      "report": "r/cobywootenlaw.com/"
+    },
+    {
+      "name": "Law Office of Michael Ephraim",
+      "site": "ephraimlaw.com",
+      "url": "https://ephraimlaw.com",
+      "category": "Family (divorce)",
+      "segment": "S2 Google only",
+      "write_to": {
+        "name": "Michael Ephraim",
+        "title": "Founder"
+      },
+      "ads": {
+        "google_30_days": 1,
+        "meta_live": null,
+        "seen": "Google 1 in 30 days · Meta not read",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "9.1 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 9.1 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "9.1 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 9.1 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fephraimlaw.com%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "None of your newest ",
+              false
+            ],
+            [
+              "50 Google reviews",
+              true
+            ],
+            [
+              " has an answer from you.",
+              false
+            ]
+          ],
+          "line": "None of your newest 50 Google reviews has an answer from you.",
+          "subject": "50 Google reviews, no replies",
+          "level": "Seen",
+          "source": "You reply to 0% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=4951687303816566799"
+            }
+          ]
+        },
+        {
+          "kind": "old_analytics",
+          "module": "tracking",
+          "angle": "Dead tracking code",
+          "parts": [
+            [
+              "Your site still loads Universal Analytics code. Google switched it off in ",
+              false
+            ],
+            [
+              "July 2023",
+              true
+            ],
+            [
+              ", so it records nothing.",
+              false
+            ]
+          ],
+          "line": "Your site still loads Universal Analytics code. Google switched it off in July 2023, so it records nothing.",
+          "subject": "old Google code on your site",
+          "level": "Seen",
+          "source": "Your site still loads old Universal Analytics code (UA-1486608-2). Google stopped it in July 2023.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://ephraimlaw.com/"
+            },
+            {
+              "label": "Your page /contact-us/",
+              "link": "https://ephraimlaw.com/contact-us/"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "9.1 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 9.1 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "9.1 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 9.1 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fephraimlaw.com%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "None of your newest ",
+              false
+            ],
+            [
+              "50 Google reviews",
+              true
+            ],
+            [
+              " has an answer from you.",
+              false
+            ]
+          ],
+          "line": "None of your newest 50 Google reviews has an answer from you.",
+          "subject": "50 Google reviews, no replies",
+          "level": "Seen",
+          "source": "You reply to 0% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=4951687303816566799"
+            }
+          ]
+        },
+        {
+          "kind": "old_analytics",
+          "module": "tracking",
+          "angle": "Dead tracking code",
+          "parts": [
+            [
+              "Your site still loads Universal Analytics code. Google switched it off in ",
+              false
+            ],
+            [
+              "July 2023",
+              true
+            ],
+            [
+              ", so it records nothing.",
+              false
+            ]
+          ],
+          "line": "Your site still loads Universal Analytics code. Google switched it off in July 2023, so it records nothing.",
+          "subject": "old Google code on your site",
+          "level": "Seen",
+          "source": "Your site still loads old Universal Analytics code (UA-1486608-2). Google stopped it in July 2023.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://ephraimlaw.com/"
+            },
+            {
+              "label": "Your page /contact-us/",
+              "link": "https://ephraimlaw.com/contact-us/"
+            }
+          ]
+        }
+      ],
+      "report": "r/ephraimlaw.com/"
+    },
+    {
+      "name": "Kimberly Dunham Law",
+      "site": "kimberlydunham.com",
+      "url": "https://kimberlydunham.com",
+      "category": "Family (divorce)",
+      "segment": "S2 Google only",
+      "write_to": {
+        "name": "Kimberly Dunham",
+        "title": "Attorney"
+      },
+      "ads": {
+        "google_30_days": 5,
+        "meta_live": null,
+        "seen": "Google 5 in 30 days · Meta not read",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "double_ads_tag",
+          "module": "tracking",
+          "angle": "Tag loads twice",
+          "parts": [
+            [
+              "Your Google Ads tag loads ",
+              false
+            ],
+            [
+              "twice",
+              true
+            ],
+            [
+              " on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+              false
+            ]
+          ],
+          "line": "Your Google Ads tag loads twice on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+          "subject": "your Google Ads tag loads twice",
+          "level": "Seen",
+          "source": "The same tag loads twice on your pages: AW-18043905195 (2 times in the page code). Google Ads may count each lead twice.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://kimberlydunham.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://kimberlydunham.com/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "open_angle",
+          "module": "competitor-ads",
+          "angle": "An angle nobody uses",
+          "parts": [
+            [
+              "We read ",
+              false
+            ],
+            [
+              "53 live ads",
+              true
+            ],
+            [
+              " from Blood Law, PLLC, Cordell & Cordell and David W. Martin Law Group. Not one leads with a discount or an offer. We also read 5 of your ads, and none does either.",
+              false
+            ]
+          ],
+          "line": "We read 53 live ads from Blood Law, PLLC, Cordell & Cordell and David W. Martin Law Group. Not one leads with a discount or an offer. We also read 5 of your ads, and none does either.",
+          "subject": "53 competitor ads, no offers",
+          "level": "Seen",
+          "source": "None of the 53 competitor ads we read (Blood Law, PLLC; Cordell & Cordell; David W. Martin Law Group) uses a discount or offer, and none of the 5 of your ads we read does. Jev was sure of each answer.",
+          "proof": [
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=blood-law.com&preset-date=Last+30+days"
+            },
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=106291464572232"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "9.2 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 9.2 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "9.2 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 9.2 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fkimberlydunham.com%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "double_ads_tag",
+          "module": "tracking",
+          "angle": "Tag loads twice",
+          "parts": [
+            [
+              "Your Google Ads tag loads ",
+              false
+            ],
+            [
+              "twice",
+              true
+            ],
+            [
+              " on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+              false
+            ]
+          ],
+          "line": "Your Google Ads tag loads twice on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+          "subject": "your Google Ads tag loads twice",
+          "level": "Seen",
+          "source": "The same tag loads twice on your pages: AW-18043905195 (2 times in the page code). Google Ads may count each lead twice.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://kimberlydunham.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://kimberlydunham.com/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "open_angle",
+          "module": "competitor-ads",
+          "angle": "An angle nobody uses",
+          "parts": [
+            [
+              "We read ",
+              false
+            ],
+            [
+              "53 live ads",
+              true
+            ],
+            [
+              " from Blood Law, PLLC, Cordell & Cordell and David W. Martin Law Group. Not one leads with a discount or an offer. We also read 5 of your ads, and none does either.",
+              false
+            ]
+          ],
+          "line": "We read 53 live ads from Blood Law, PLLC, Cordell & Cordell and David W. Martin Law Group. Not one leads with a discount or an offer. We also read 5 of your ads, and none does either.",
+          "subject": "53 competitor ads, no offers",
+          "level": "Seen",
+          "source": "None of the 53 competitor ads we read (Blood Law, PLLC; Cordell & Cordell; David W. Martin Law Group) uses a discount or offer, and none of the 5 of your ads we read does. Jev was sure of each answer.",
+          "proof": [
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=blood-law.com&preset-date=Last+30+days"
+            },
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=106291464572232"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "9.2 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 9.2 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "9.2 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 9.2 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fkimberlydunham.com%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "layout_jumps",
+          "module": "page-speed",
+          "angle": "Page jumps on phones",
+          "parts": [
+            [
+              "Your Alimony page jumps around while it loads on a phone. Google scores it ",
+              false
+            ],
+            [
+              "0.34",
+              true
+            ],
+            [
+              ", and anything over 0.25 is \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Alimony page jumps around while it loads on a phone. Google scores it 0.34, and anything over 0.25 is \"poor\".",
+          "subject": "Alimony page jumps on phones",
+          "level": "Seen",
+          "source": "Your top service page (Alimony) moves its layout by 0.34 as it loads on a phone. Google calls more than 0.25 \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fkimberlydunham.com%2Fpractice-area%2Falimony%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "Only ",
+              false
+            ],
+            [
+              "2%",
+              true
+            ],
+            [
+              " of your newest 50 Google reviews have an answer from you.",
+              false
+            ]
+          ],
+          "line": "Only 2% of your newest 50 Google reviews have an answer from you.",
+          "subject": "only 2% of your reviews answered",
+          "level": "Seen",
+          "source": "You reply to 2% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=9029676140375094869"
+            }
+          ]
+        }
+      ],
+      "report": "r/kimberlydunham.com/"
+    },
+    {
+      "name": "SMC Esq",
+      "site": "smcesq.com",
+      "url": "https://smcesq.com",
+      "category": "Business and estates",
+      "segment": "S2 Google only",
+      "write_to": {
+        "name": "Shann Chaudhry",
+        "title": "Principal Attorney and Managing Member"
+      },
+      "ads": {
+        "google_30_days": 36,
+        "meta_live": 0,
+        "seen": "Google 36 in 30 days · Meta none live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "double_ads_tag",
+          "module": "tracking",
+          "angle": "Tag loads twice",
+          "parts": [
+            [
+              "Your Google Ads tag loads ",
+              false
+            ],
+            [
+              "twice",
+              true
+            ],
+            [
+              " on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+              false
+            ]
+          ],
+          "line": "Your Google Ads tag loads twice on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+          "subject": "your Google Ads tag loads twice",
+          "level": "Seen",
+          "source": "The same tag loads twice on your pages: AW-10817485571 (in the page code and in Tag Manager). Google Ads may count each lead twice.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://smcesq.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://smcesq.com/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "12.6 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 12.6 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "12.6 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 12.6 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fsmcesq.com%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "no_meta_ads",
+          "module": "advertisers",
+          "angle": "Not on Instagram",
+          "parts": [
+            [
+              "Google's ad library shows ",
+              false
+            ],
+            [
+              "36 of your ads",
+              true
+            ],
+            [
+              " in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
+              false
+            ]
+          ],
+          "line": "Google's ad library shows 36 of your ads in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
+          "subject": "no ads on Instagram",
+          "level": "Seen",
+          "source": "We cannot find a live ad of yours in Meta's ad library (searched \"https://www.facebook.com/smcesqsa/\"). | Google's ad library shows 36 of your ads in the past 30 days, the newest last shown Nov 9, 2026.",
+          "proof": [
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=253204668177813"
+            },
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=smcesq.com&preset-date=Last+30+days"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "double_ads_tag",
+          "module": "tracking",
+          "angle": "Tag loads twice",
+          "parts": [
+            [
+              "Your Google Ads tag loads ",
+              false
+            ],
+            [
+              "twice",
+              true
+            ],
+            [
+              " on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+              false
+            ]
+          ],
+          "line": "Your Google Ads tag loads twice on your site. If both copies send your leads, Google Ads counts each lead twice and bids on numbers that aren't real.",
+          "subject": "your Google Ads tag loads twice",
+          "level": "Seen",
+          "source": "The same tag loads twice on your pages: AW-10817485571 (in the page code and in Tag Manager). Google Ads may count each lead twice.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://smcesq.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://smcesq.com/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "12.6 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 12.6 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "12.6 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 12.6 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fsmcesq.com%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "no_meta_ads",
+          "module": "advertisers",
+          "angle": "Not on Instagram",
+          "parts": [
+            [
+              "Google's ad library shows ",
+              false
+            ],
+            [
+              "36 of your ads",
+              true
+            ],
+            [
+              " in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
+              false
+            ]
+          ],
+          "line": "Google's ad library shows 36 of your ads in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
+          "subject": "no ads on Instagram",
+          "level": "Seen",
+          "source": "We cannot find a live ad of yours in Meta's ad library (searched \"https://www.facebook.com/smcesqsa/\"). | Google's ad library shows 36 of your ads in the past 30 days, the newest last shown Nov 9, 2026.",
+          "proof": [
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=253204668177813"
+            },
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=smcesq.com&preset-date=Last+30+days"
+            }
+          ]
+        }
+      ],
+      "report": "r/smcesq.com/"
+    },
+    {
+      "name": "Law Office of Michael Kern",
+      "site": "mvkernlaw.com",
+      "url": "https://mvkernlaw.com",
+      "category": "Immigration",
+      "segment": "S2 Google only",
+      "write_to": {
+        "name": "Michael Kern",
+        "title": "Attorney"
+      },
+      "ads": {
+        "google_30_days": 6,
+        "meta_live": null,
+        "seen": "Google 6 in 30 days · Meta not read",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "no_conversion_tag",
+          "module": "tracking",
+          "angle": "No conversion tag found",
+          "parts": [
+            [
+              "You're paying for Google Ads, but we can't find ",
+              false
+            ],
+            [
+              "a Google Ads conversion tag",
+              true
+            ],
+            [
+              " on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+              false
+            ]
+          ],
+          "line": "You're paying for Google Ads, but we can't find a Google Ads conversion tag on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+          "subject": "we can't find your Google Ads conversion tag",
+          "level": "Seen",
+          "source": "You pay for Google Ads, but we cannot find a Google Ads conversion tag on your site. Without one, Google bids without knowing which clicks became leads.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://www.mvkernlaw.com/"
+            },
+            {
+              "label": "Your page /contact",
+              "link": "https://www.mvkernlaw.com/contact"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "4.1 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 4.1 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "4.1 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 4.1 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.mvkernlaw.com%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "old_analytics",
+          "module": "tracking",
+          "angle": "Dead tracking code",
+          "parts": [
+            [
+              "Your site still loads Universal Analytics code. Google switched it off in ",
+              false
+            ],
+            [
+              "July 2023",
+              true
+            ],
+            [
+              ", so it records nothing.",
+              false
+            ]
+          ],
+          "line": "Your site still loads Universal Analytics code. Google switched it off in July 2023, so it records nothing.",
+          "subject": "old Google code on your site",
+          "level": "Seen",
+          "source": "Your site still loads old Universal Analytics code (UA-188963175-1). Google stopped it in July 2023.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://www.mvkernlaw.com/"
+            },
+            {
+              "label": "Your page /contact",
+              "link": "https://www.mvkernlaw.com/contact"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "no_conversion_tag",
+          "module": "tracking",
+          "angle": "No conversion tag found",
+          "parts": [
+            [
+              "You're paying for Google Ads, but we can't find ",
+              false
+            ],
+            [
+              "a Google Ads conversion tag",
+              true
+            ],
+            [
+              " on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+              false
+            ]
+          ],
+          "line": "You're paying for Google Ads, but we can't find a Google Ads conversion tag on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+          "subject": "we can't find your Google Ads conversion tag",
+          "level": "Seen",
+          "source": "You pay for Google Ads, but we cannot find a Google Ads conversion tag on your site. Without one, Google bids without knowing which clicks became leads.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://www.mvkernlaw.com/"
+            },
+            {
+              "label": "Your page /contact",
+              "link": "https://www.mvkernlaw.com/contact"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "4.1 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 4.1 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "4.1 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 4.1 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.mvkernlaw.com%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "old_analytics",
+          "module": "tracking",
+          "angle": "Dead tracking code",
+          "parts": [
+            [
+              "Your site still loads Universal Analytics code. Google switched it off in ",
+              false
+            ],
+            [
+              "July 2023",
+              true
+            ],
+            [
+              ", so it records nothing.",
+              false
+            ]
+          ],
+          "line": "Your site still loads Universal Analytics code. Google switched it off in July 2023, so it records nothing.",
+          "subject": "old Google code on your site",
+          "level": "Seen",
+          "source": "Your site still loads old Universal Analytics code (UA-188963175-1). Google stopped it in July 2023.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://www.mvkernlaw.com/"
+            },
+            {
+              "label": "Your page /contact",
+              "link": "https://www.mvkernlaw.com/contact"
+            }
+          ]
+        }
+      ],
+      "report": "r/mvkernlaw.com/"
+    },
+    {
+      "name": "Weberman Business Law",
+      "site": "dhweberman.com",
+      "url": "https://dhweberman.com",
+      "category": "Business",
+      "segment": "S2 Google only",
+      "write_to": {
+        "name": "Daniel Weberman",
+        "title": "Attorney"
+      },
+      "ads": {
+        "google_30_days": 12,
+        "meta_live": null,
+        "seen": "Google 12 in 30 days · Meta not read",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "no_conversion_tag",
+          "module": "tracking",
+          "angle": "No conversion tag found",
+          "parts": [
+            [
+              "You're paying for Google Ads, but we can't find ",
+              false
+            ],
+            [
+              "a Google Ads conversion tag",
+              true
+            ],
+            [
+              " on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+              false
+            ]
+          ],
+          "line": "You're paying for Google Ads, but we can't find a Google Ads conversion tag on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+          "subject": "we can't find your Google Ads conversion tag",
+          "level": "Seen",
+          "source": "You pay for Google Ads, but we cannot find a Google Ads conversion tag on your site. Without one, Google bids without knowing which clicks became leads.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://www.dhweberman.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://www.dhweberman.com/contact/"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "no_conversion_tag",
+          "module": "tracking",
+          "angle": "No conversion tag found",
+          "parts": [
+            [
+              "You're paying for Google Ads, but we can't find ",
+              false
+            ],
+            [
+              "a Google Ads conversion tag",
+              true
+            ],
+            [
+              " on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+              false
+            ]
+          ],
+          "line": "You're paying for Google Ads, but we can't find a Google Ads conversion tag on your site, or any other way your leads reach Google Ads. Without one, every bid is a guess.",
+          "subject": "we can't find your Google Ads conversion tag",
+          "level": "Seen",
+          "source": "You pay for Google Ads, but we cannot find a Google Ads conversion tag on your site. Without one, Google bids without knowing which clicks became leads.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://www.dhweberman.com/"
+            },
+            {
+              "label": "Your page /contact/",
+              "link": "https://www.dhweberman.com/contact/"
+            }
+          ]
+        }
+      ],
+      "report": "r/dhweberman.com/"
+    },
+    {
+      "name": "Roderick Lopez Personal Injury Lawyers",
+      "site": "lawredo.com",
+      "url": "https://lawredo.com",
+      "category": "Personal injury",
+      "segment": "S5 No ads",
+      "write_to": {
+        "name": "Roderick Lopez",
+        "title": "Founder and Managing Attorney"
+      },
+      "ads": {
+        "google_30_days": 0,
+        "meta_live": null,
+        "seen": "Google none in 30 days · Meta not read",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Car Accidents page takes ",
+              false
+            ],
+            [
+              "17.6 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Car Accidents page takes 17.6 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "17.6 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Car Accidents) takes 17.6 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Flawredo.com%2Flaredo-car-accident-lawyer%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Car Accidents page takes ",
+              false
+            ],
+            [
+              "17.6 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Car Accidents page takes 17.6 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "17.6 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Car Accidents) takes 17.6 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Flawredo.com%2Flaredo-car-accident-lawyer%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "report": "r/lawredo.com/"
+    },
+    {
+      "name": "Law Offices of Thomas Lavin",
+      "site": "lawlavin.com",
+      "url": "https://lawlavin.com",
+      "category": "Personal injury",
+      "segment": "S5 No ads",
+      "write_to": {
+        "name": "Thomas Lavin",
+        "title": "Founder"
+      },
+      "ads": {
+        "google_30_days": 0,
+        "meta_live": 0,
+        "seen": "Google none in 30 days · Meta none live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Car Accidents page takes ",
+              false
+            ],
+            [
+              "5.2 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Car Accidents page takes 5.2 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "5.2 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Car Accidents) takes 5.2 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Flawlavin.com%2Fauto-accident%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "Only ",
+              false
+            ],
+            [
+              "40%",
+              true
+            ],
+            [
+              " of your newest 50 Google reviews have an answer from you.",
+              false
+            ]
+          ],
+          "line": "Only 40% of your newest 50 Google reviews have an answer from you.",
+          "subject": "only 40% of your reviews answered",
+          "level": "Seen",
+          "source": "You reply to 40% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=1697539597090355186"
+            }
+          ]
+        },
+        {
+          "kind": "old_analytics",
+          "module": "tracking",
+          "angle": "Dead tracking code",
+          "parts": [
+            [
+              "Your site still loads Universal Analytics code. Google switched it off in ",
+              false
+            ],
+            [
+              "July 2023",
+              true
+            ],
+            [
+              ", so it records nothing.",
+              false
+            ]
+          ],
+          "line": "Your site still loads Universal Analytics code. Google switched it off in July 2023, so it records nothing.",
+          "subject": "old Google code on your site",
+          "level": "Seen",
+          "source": "Your site still loads old Universal Analytics code (UA-28075421-1). Google stopped it in July 2023.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://lawlavin.com/"
+            },
+            {
+              "label": "Your page /contact-us/",
+              "link": "https://lawlavin.com/contact-us/"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Car Accidents page takes ",
+              false
+            ],
+            [
+              "5.2 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Car Accidents page takes 5.2 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "5.2 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Car Accidents) takes 5.2 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Flawlavin.com%2Fauto-accident%2F&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "Only ",
+              false
+            ],
+            [
+              "40%",
+              true
+            ],
+            [
+              " of your newest 50 Google reviews have an answer from you.",
+              false
+            ]
+          ],
+          "line": "Only 40% of your newest 50 Google reviews have an answer from you.",
+          "subject": "only 40% of your reviews answered",
+          "level": "Seen",
+          "source": "You reply to 40% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=1697539597090355186"
+            }
+          ]
+        },
+        {
+          "kind": "old_analytics",
+          "module": "tracking",
+          "angle": "Dead tracking code",
+          "parts": [
+            [
+              "Your site still loads Universal Analytics code. Google switched it off in ",
+              false
+            ],
+            [
+              "July 2023",
+              true
+            ],
+            [
+              ", so it records nothing.",
+              false
+            ]
+          ],
+          "line": "Your site still loads Universal Analytics code. Google switched it off in July 2023, so it records nothing.",
+          "subject": "old Google code on your site",
+          "level": "Seen",
+          "source": "Your site still loads old Universal Analytics code (UA-28075421-1). Google stopped it in July 2023.",
+          "proof": [
+            {
+              "label": "Your home page",
+              "link": "https://lawlavin.com/"
+            },
+            {
+              "label": "Your page /contact-us/",
+              "link": "https://lawlavin.com/contact-us/"
+            }
+          ]
+        }
+      ],
+      "report": "r/lawlavin.com/"
+    },
+    {
+      "name": "Law Office of Cameron Fernandez",
+      "site": "cafamlaw.com",
+      "url": "https://cafamlaw.com",
+      "category": "Family (divorce)",
+      "segment": "S5 No ads",
+      "write_to": {
+        "name": "Cameron Fernandez",
+        "title": "Principal"
+      },
+      "ads": {
+        "google_30_days": 0,
+        "meta_live": null,
+        "seen": "Google none in 30 days · Meta not read",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "4.7 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 4.7 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "4.7 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 4.7 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fcafamlaw.com%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "4.7 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 4.7 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "4.7 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 4.7 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fcafamlaw.com%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "report": "r/cafamlaw.com/"
+    },
+    {
+      "name": "Law Office of Ric Woodward",
+      "site": "ricwoodwardlawfirm.com",
+      "url": "https://ricwoodwardlawfirm.com",
+      "category": "Family (divorce)",
+      "segment": "S5 No ads",
+      "write_to": {
+        "name": "Ric Woodward",
+        "title": "Attorney"
+      },
+      "ads": {
+        "google_30_days": 0,
+        "meta_live": null,
+        "seen": "Google none in 30 days · Meta not read",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Family Law page takes ",
+              false
+            ],
+            [
+              "19.0 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Family Law page takes 19.0 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "19.0 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Family Law) takes 19.0 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.ricwoodwardlawfirm.com%2Ffamily-law&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "Only ",
+              false
+            ],
+            [
+              "36%",
+              true
+            ],
+            [
+              " of your newest 50 Google reviews have an answer from you.",
+              false
+            ]
+          ],
+          "line": "Only 36% of your newest 50 Google reviews have an answer from you.",
+          "subject": "only 36% of your reviews answered",
+          "level": "Seen",
+          "source": "You reply to 36% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=2736227729067729791"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Family Law page takes ",
+              false
+            ],
+            [
+              "19.0 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Family Law page takes 19.0 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "19.0 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Family Law) takes 19.0 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.ricwoodwardlawfirm.com%2Ffamily-law&form_factor=mobile"
+            }
+          ]
+        },
+        {
+          "kind": "unanswered_reviews",
+          "module": "reviews",
+          "angle": "Reviews with no answer",
+          "parts": [
+            [
+              "Only ",
+              false
+            ],
+            [
+              "36%",
+              true
+            ],
+            [
+              " of your newest 50 Google reviews have an answer from you.",
+              false
+            ]
+          ],
+          "line": "Only 36% of your newest 50 Google reviews have an answer from you.",
+          "subject": "only 36% of your reviews answered",
+          "level": "Seen",
+          "source": "You reply to 36% of your newest 50 reviews. Less than half get an answer.",
+          "proof": [
+            {
+              "label": "Your reviews on Google",
+              "link": "https://maps.google.com/?cid=2736227729067729791"
+            }
+          ]
+        }
+      ],
+      "report": "r/ricwoodwardlawfirm.com/"
+    },
+    {
+      "name": "Krilchev & Associates",
+      "site": "krilchev.com",
+      "url": "https://krilchev.com",
+      "category": "Immigration",
+      "segment": "S5 No ads",
+      "write_to": {
+        "name": "Kristina Krilchev",
+        "title": "Founder and CEO"
+      },
+      "ads": {
+        "google_30_days": 0,
+        "meta_live": null,
+        "seen": "Google none in 30 days · Meta not read",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "9.7 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 9.7 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "9.7 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 9.7 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\". Your home page moves its layout by 0.55 as it loads on a phone. Google calls more than 0.25 \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.krilchev.com%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "9.7 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 9.7 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "9.7 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 9.7 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\". Your home page moves its layout by 0.55 as it loads on a phone. Google calls more than 0.25 \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.krilchev.com%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "report": "r/krilchev.com/"
+    },
+    {
+      "name": "Law Offices of Thomason Bush",
+      "site": "tbblawoffices.com",
+      "url": "https://tbblawoffices.com",
+      "category": "Business",
+      "segment": "S5 No ads",
+      "write_to": {
+        "name": "Thomason Bush",
+        "title": "Founding Attorney"
+      },
+      "ads": {
+        "google_30_days": 0,
+        "meta_live": 0,
+        "seen": "Google none in 30 days · Meta none live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "open_angle",
+          "module": "competitor-ads",
+          "angle": "An angle nobody uses",
+          "parts": [
+            [
+              "We read ",
+              false
+            ],
+            [
+              "33 live ads",
+              true
+            ],
+            [
+              " from Law 4 Small Business (L4SB), LegalZoom and The Moster Law Firm. Not one gives a reason to act now.",
+              false
+            ]
+          ],
+          "line": "We read 33 live ads from Law 4 Small Business (L4SB), LegalZoom and The Moster Law Firm. Not one gives a reason to act now.",
+          "subject": "33 competitor ads, no urgency",
+          "level": "Seen",
+          "source": "None of the 33 competitor ads we read (Law 4 Small Business (L4SB); LegalZoom; The Moster Law Firm) uses urgency. We found no live ad of yours in Google's or Meta's library. Jev was sure of each answer.",
+          "proof": [
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=l4sb.com&preset-date=Last+30+days"
+            },
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=96270063170"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Business Law page takes ",
+              false
+            ],
+            [
+              "19.7 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Business Law page takes 19.7 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "19.7 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Business Law) takes 19.7 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Ftbblawoffices.com%2Flubbock-texas-business-law-attorney%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "open_angle",
+          "module": "competitor-ads",
+          "angle": "An angle nobody uses",
+          "parts": [
+            [
+              "We read ",
+              false
+            ],
+            [
+              "33 live ads",
+              true
+            ],
+            [
+              " from Law 4 Small Business (L4SB), LegalZoom and The Moster Law Firm. Not one gives a reason to act now.",
+              false
+            ]
+          ],
+          "line": "We read 33 live ads from Law 4 Small Business (L4SB), LegalZoom and The Moster Law Firm. Not one gives a reason to act now.",
+          "subject": "33 competitor ads, no urgency",
+          "level": "Seen",
+          "source": "None of the 33 competitor ads we read (Law 4 Small Business (L4SB); LegalZoom; The Moster Law Firm) uses urgency. We found no live ad of yours in Google's or Meta's library. Jev was sure of each answer.",
+          "proof": [
+            {
+              "label": "Google's ad library",
+              "link": "https://adstransparency.google.com/?region=US&domain=l4sb.com&preset-date=Last+30+days"
+            },
+            {
+              "label": "Meta's ad library",
+              "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=96270063170"
+            }
+          ]
+        },
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your Business Law page takes ",
+              false
+            ],
+            [
+              "19.7 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your Business Law page takes 19.7 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "19.7 seconds on a phone",
+          "level": "Seen",
+          "source": "Your top service page (Business Law) takes 19.7 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Ftbblawoffices.com%2Flubbock-texas-business-law-attorney%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "report": "r/tbblawoffices.com/"
+    },
+    {
+      "name": "Carol Nolan Law",
+      "site": "canolanlaw.com",
+      "url": "https://canolanlaw.com",
+      "category": "Estate planning and elder law",
+      "segment": "S5 No ads",
+      "write_to": {
+        "name": "Carol Nolan",
+        "title": "Attorney"
+      },
+      "ads": {
+        "google_30_days": 0,
+        "meta_live": 0,
+        "seen": "Google none in 30 days · Meta none live",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [],
+      "problems": [],
+      "report": "r/canolanlaw.com/"
+    },
+    {
+      "name": "Kealy Law",
+      "site": "kealylaw.com",
+      "url": "https://kealylaw.com",
+      "category": "Estate planning",
+      "segment": "S5 No ads",
+      "write_to": {
+        "name": "Robert Kealy",
+        "title": "Attorney"
+      },
+      "ads": {
+        "google_30_days": 0,
+        "meta_live": null,
+        "seen": "Google none in 30 days · Meta not read",
+        "flags": []
+      },
+      "retail": null,
+      "hooks": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "7.3 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 7.3 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "7.3 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 7.3 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fkealylaw.com%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "problems": [
+        {
+          "kind": "slow_on_phones",
+          "module": "page-speed",
+          "angle": "Slow on phones",
+          "parts": [
+            [
+              "Your home page takes ",
+              false
+            ],
+            [
+              "7.3 seconds",
+              true
+            ],
+            [
+              " to show on a phone. Google calls anything over 4 seconds \"poor\".",
+              false
+            ]
+          ],
+          "line": "Your home page takes 7.3 seconds to show on a phone. Google calls anything over 4 seconds \"poor\".",
+          "subject": "7.3 seconds on a phone",
+          "level": "Seen",
+          "source": "Your home page takes 7.3 seconds to show its main content on a phone. Google calls more than 4 seconds \"poor\".",
+          "proof": [
+            {
+              "label": "Google's speed test",
+              "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fkealylaw.com%2F&form_factor=mobile"
+            }
+          ]
+        }
+      ],
+      "report": "r/kealylaw.com/"
+    }
+  ]
+}
