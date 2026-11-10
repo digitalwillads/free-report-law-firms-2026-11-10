@@ -53,6 +53,16 @@ p { text-wrap: pretty; } h1, h2 { text-wrap: balance; }
 .content { margin-left: 260px; max-width: 920px; padding: 1rem 2rem 2rem; }
 .mtop { display: none; }
 .sec { padding: 3rem 0 2.5rem; border-bottom: 1px solid var(--border); scroll-margin-top: 1rem; }
+/* One section at a time (Will, 2026-11-10: "just show one for each one you click on the site and have the things that
+   is shown be centered"): the menu, a section's Next button or the address picks the section; it sits in the middle of
+   the page. A section taller than the screen starts at the top. */
+.one .sec { display: none; }
+.one .sec.on { display: flex; flex-direction: column; justify-content: center; min-height: calc(100vh - 76px); border-bottom: 0; }
+.go-next { align-self: center; margin: 2rem 0 0; padding: .7rem 1.4rem; border: 1px solid var(--border); border-radius: 999px; background: var(--surface);
+  color: var(--text); font: 600 .95rem var(--font); cursor: pointer; }
+.go-next:hover { border-color: var(--primary); color: var(--primary); }
+.go-next:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+@media (min-width: 1101px) { .content { margin-left: max(260px, calc((100vw - 920px) / 2)); } }
 .sec:last-of-type { border-bottom: 0; }
 .sec-tag { display: flex; align-items: center; justify-content: center; gap: .5rem; margin: 0 0 .6rem; font-size: .78rem; font-weight: 600;
   letter-spacing: .06em; text-transform: uppercase; color: var(--text2); }
@@ -755,7 +765,20 @@ a.gs-card:hover { box-shadow: 0 1px 6px rgba(32, 33, 36, .28); }
   // What we assumed where the website did not say: one plain sentence each, above the first section.
   const assumed = Array.isArray(d.assumed) ? d.assumed.filter(Boolean) : [];
   const assumedBox = assumed.length ? `<div class="assumed" role="note"><b>What we assumed</b>${assumed.map(a => `<p>${esc(a)}</p>`).join("")}</div>` : "";
-  document.getElementById("sections").innerHTML = assumedBox + secs.map(s => s.html).join("");
+  // What we assumed is part of the first section: it shows with it.
+  document.getElementById("sections").innerHTML = secs.map((s, i) => i === 0 && assumedBox ? s.html.replace(/^<section[^>]*>/, m => m + assumedBox) : s.html).join("");
+  // Each section but the last ends with a button to the next one (phones have no side menu).
+  const secEls = [...document.querySelectorAll("#sections > .sec")];
+  secEls.forEach((el, i) => {
+    const nx = secs[i + 1];
+    if (!nx) return;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "go-next";
+    b.dataset.go = nx.id;
+    b.textContent = `Next: ${nx.nav}`;
+    el.appendChild(b);
+  });
   document.getElementById("nav").innerHTML = secs.map((s, i) =>
     `<a href="#${s.id}" data-sec="${s.id}"><span class="num">${i + 1}</span><span class="dot ${esc(s.sev)}"></span><span>${esc(s.nav)}</span></a>`).join("");
   document.getElementById("side-store").textContent = d.store.name;
@@ -799,15 +822,30 @@ a.gs-card:hover { box-shadow: 0 1px 6px rgba(32, 33, 36, .28); }
     wrap.querySelectorAll("[data-page-box]").forEach(box => { box.hidden = box.getAttribute("data-page-box") !== i; });
     console.log("[free-report] who: search shown", { query: c.textContent });
   });
-  // The side menu marks the section in view; the bottom bar hides on the last section, which has its own button.
+  // One section at a time: the side menu, a Next button or the address (#id) picks it, and Back goes to the one before.
+  // The bottom bar hides on the last section, which has its own button.
   const navLinks = [...document.querySelectorAll(".nav a")];
-  const seen = new IntersectionObserver(entries => {
-    for (const e of entries) {
-      if (!e.isIntersecting) continue;
-      navLinks.forEach(a => a.classList.toggle("on", a.dataset.sec === e.target.id));
-    }
-  }, { rootMargin: "-45% 0px -50% 0px" });
-  document.querySelectorAll(".sec").forEach(s => seen.observe(s));
+  const secIds = secs.map(s => s.id);
+  const show = (id, how) => {
+    if (!secIds.includes(id)) id = secIds[0];
+    secEls.forEach(el => el.classList.toggle("on", el.id === id));
+    navLinks.forEach(a => a.classList.toggle("on", a.dataset.sec === id));
+    document.getElementById("bar").classList.toggle("hide", id === "next");
+    window.scrollTo(0, 0);
+    console.log("[free-report] section shown", { store: d.store.site, id, how });
+    return id;
+  };
+  document.body.classList.add("one");
+  document.addEventListener("click", ev => {
+    const a = ev.target.closest(".nav a, [data-go]");
+    if (!a) return;
+    ev.preventDefault();
+    const id = show(a.dataset.sec || a.dataset.go, a.dataset.go ? "next" : "menu");
+    if (location.hash !== `#${id}`) history.pushState(null, "", `#${id}`);
+  });
+  window.addEventListener("popstate", () => show(location.hash.slice(1), "back"));
+  window.addEventListener("hashchange", () => show(location.hash.slice(1), "address"));
+  show(location.hash.slice(1), "start");
   // Each finding's animation plays while a third of it is on screen.
   const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const players = new Map([...document.querySelectorAll("[data-anim]")].map(el => [el, player(el, anims[Number(el.dataset.anim)])]));
@@ -820,8 +858,6 @@ a.gs-card:hover { box-shadow: 0 1px 6px rgba(32, 33, 36, .28); }
     players.forEach((_, el) => onScreen.observe(el));
   }
   console.log("[free-report] animations: ready", { store: d.store.site, kinds: anims.map(a => a.kind), still });
-  new IntersectionObserver(([e]) => document.getElementById("bar").classList.toggle("hide", e.isIntersecting), { threshold: 0.15 })
-    .observe(document.getElementById("next"));
 
   console.log("[free-report] render: done", { store: d.store.site, sections: secs.length,
     tables: d.findings.filter(f => f.table).length, ad_cards: d.findings.reduce((k, f) => k + (Array.isArray(f.ads) ? f.ads.length : 0), 0),
